@@ -1,0 +1,152 @@
+/*GENERAL STYLES*/
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+
+.row,
+.container-fluid {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body {
+    width: 100vw;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+/*FONTS*/
+.lato-font {
+    font-family: 'lato';
+}
+
+h6,
+a,
+p,
+h1,
+button {
+    font-family: 'lato';
+}
+
+/*Navbar*/
+.navbar,
+.search-bar {
+    z-index: 1101;
+}
+
+.navbar-brand {
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    top: 22px;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+}
+
+li .text-secondary:hover {
+    background: #0d2c05;
+    opacity: .6;
+}
+
+#cart {
+    position: fixed; 
+    right: 0; 
+    top: 5px;
+}
+
+#cart, #burgerMenu {
+    color: black;
+}
+
+/*ABOUT US.HTML*/
+#about-us{
+    margin-top: 14vh;
+}
+
+/*STOCKIST.HTML*/
+#stockist-intro {
+    position: relative;
+    top: 5vh;
+}
+
+#text-area {
+    width: 100%;
+}
+
+#social-media {
+    color: white;
+}
+
+.form-label {
+    font-size: 20px;
+}
+
+/*BECOME A STOCKIST*/
+#become-a-stockist {
+    width: 100vw;
+    height: 40vh;
+    background-image: url('../imgs/homeImgThree.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+}
+
+#become-a-stockist div {
+    height: 100%;
+    background-color: rgba(0,0,0, .6);
+    display:table-cell;
+    vertical-align: middle;
+}
+
+/*FOOTER*/
+.footer-row {
+    padding-bottom: 5vh; 
+}
+
+#social-media {
+    color: white;
+}
+
+/*Viewport bottom border */
+.bottom-screen-border {
+    height: 1vh;
+}
+
+/*MEDIA QUERIES NAV*/
+@media  screen and (min-width: 1200px){
+    .navbar-brand {
+        top: 25px;
+    }
+
+    #cart { 
+        top: 8px;
+    }
+}
+
+/*MEDIA QUERIES GALLERY*/
+@media screen and (max-width: 991px) {
+    .gallery-right {
+        height: 30vh;
+    }
+
+    .gallery-two-child {
+        width: 50vw;
+    }
+}
+
+
+/*MEDIA QUERIES ABOUT US*/
+@media screen and (max-width: 575px) {
+    .about-img-one {
+        display: none;
+    }
+}

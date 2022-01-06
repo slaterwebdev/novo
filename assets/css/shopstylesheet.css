@@ -1,0 +1,75 @@
+/*shop.html*/
+.candles,
+.wax-melts,
+.wax-melt-boxes,
+.personalised,
+.woody,
+.floral,
+.hibiscus,
+.fruity,
+.deep {
+    margin: 12vh auto 5vh auto;
+}
+
+p {
+    padding: 0 1vw;
+}
+
+/*ITEM CARDS shop.html*/
+.card {
+    margin: 0 1.5vw 3vw 1.5vw;
+}
+
+.card-title {
+    height: 10vh;
+}
+
+.card,
+.card-body {
+    display: inline-block;
+    width: 280px;
+}
+
+.card-img-container img {
+    height: 30vh;
+}
+
+.desc {
+    height: 8vh;
+}
+
+/* shopProduct.html */
+.product-card {
+   margin: 14vh 0;
+}
+
+#become-a-stockist {
+    display: none;
+}
+
+.product-image-small {
+    display: none;
+}
+
+#modal {
+    background: rgba(26, 25, 25, 0.6);
+}
+
+@media  screen and (max-width: 590px) {
+    .product-card {
+        margin: 9vh 0;
+    }     
+
+    .product-card form {
+        width: 100vw;
+    }
+
+    .product-image-big {
+        display: none;
+    }
+
+    .product-image-small{
+        display: inline-block;
+    }
+}
+

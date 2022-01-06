@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/shopstylesheet.css">
+    <title>Novo - Shop</title>
+</head>
+<body>
+<!--Navigation-->
+<header class="nav-container"></header>
+
+<!--ADDED TO CART MODAL-->
+<section id="modal" class="position-fixed top-0 left-0
+w-100 h-100 d-flex justify-content-center align-items-center d-none">
+    <div class="d-flex justify-content-center align-items-center w-50 bg-secondary h-50 rounded-3 text-center">
+        <div>
+            <h3 class="text-primary mb-3">Items Added <br> To Cart!</h3>
+            <a href="shop.html" id="keep-shopping" class="btn btn-primary rounded-pill mb-3">
+                Keep Shopping
+            </a>
+            <h4 class="mb-3">Or</h4>
+            <a href="checkoutCart.html" id="checkout" class="btn btn-primary rounded-pill mb-3">
+                Checkout
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--SHOP-->
+<section id="product"></section>
+
+<section class="footer-stockist-container"></section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js/headerAndFooter.js"></script>
+<script src="js/app.js"></script>
+<script src="js/shop.js"></script>
+</body>
+</html>

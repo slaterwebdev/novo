@@ -1,0 +1,54 @@
+/*CHECKOUT CART*/
+#checkout-cart {
+    padding: 10vh 0 0 0;
+    overflow: scroll;
+    min-height: 100vh;
+}
+
+#checkout-cart  h1{
+    color: rgb(166, 167, 167);
+}
+
+.return {
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+#become-a-stockist {
+    display: none;
+}
+
+.checkout-img {
+    width: 10vw;
+}
+
+/*Checkout form - customer details*/
+#checkout-customer-info {
+    padding-top: 10vh;
+}
+
+#checkout-customer-info form {
+    width: 95vw;
+}
+
+form input {
+    width: 45vw;
+    min-width: 300px;
+}
+
+form .d-block {
+    width: 92vw;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 500px) {
+    #checkout-cart, 
+    #checkout-customer-info {
+        padding: 15vh 0 0 0;
+    }
+}

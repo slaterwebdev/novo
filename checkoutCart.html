@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/checkoutCart.css">
+    <title>Novo - Shop</title>
+</head>
+<body>
+<!--Navigation-->
+<header class="nav-container"></header>
+
+<!--Checkout Cart-->
+<a href="shop.html" class="position-absolute return">Return to Shop</a>
+<section id="checkout-cart">
+    <h2 class="text-center text-primary m-25">Your Shopping Cart</h2>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="cart col-md-9 mt-3">
+                
+            </div>
+            <div class="col-md-9 d-flex justify-content-around mt-2 mb-4">
+                <h2 class="price-total text-primary">Total: </h2>
+                <button class="continue btn btn-primary rounded-pill ">Continue</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="checkout-customer-info" class="container-fluid bg-primary text-secondary pb-4 d-flex justify-content-center  rounded-top d-none">
+    <form class="mx-auto text-center">
+        <h2 class="display-4">Customer Details</h2>
+
+        <input type="email" class="mb-3 text-center d-inline-block" id="email" aria-describedby="emailHelp" placeholder="Email Address" required>
+
+        <input type="number" class="mb-3 text-center" id="phone" placeholder="Phone Number (Optional)">
+
+        <h2 class="display-4">Shipping Details</h2>
+
+        <input type="text" class="mb-3 text-center" id="business-name" placeholder="First Name" required>
+
+        <input type="text" class="mb-3 text-center" id="business-name" placeholder="Last Name" required>
+
+        <input type="text" class="mb-3 text-center d-block mx-auto" id="business-name" placeholder="Country" required>
+    
+        <textarea name="text-area" id="text-area" cols="80" rows="10" class="d-block mb-3 text-center mx-auto" placeholder="Message"></textarea>
+
+        <input type="text" class="mb-3 text-center mx-auto" id="business-name" placeholder="Street Address" required>
+
+        <input type="text" class="mb-3 text-center mx-auto" id="business-name" placeholder="Apt, Unit, Suite etc" required>
+
+        <input type="text" class="mb-3 text-center mx-auto" id="business-name" placeholder="Postal/Zip Code" required>
+
+        <input type="text" class="mb-3 text-center mx-auto" id="business-name" placeholder="City" required>
+
+        <div id="emailHelp" class="form-text mb-3 text-center d-block">We'll never share your details with anyone else.
+        </div>
+
+        <button type="submit" class="btn btn-secondary rounded-pill lato-font payment">Continue To Payment</button>
+    </form>
+</section>
+
+<section id="checkout-paypal" class="d-none">
+    <!--PAYPAL INTERGRATION HERE-->
+    <h1 class="text-center">PAYPAL INTERGRATION HERE</h1>
+</section>
+
+<section class="footer-stockist-container position-absolute w-100 bottom-0"></section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js/headerAndFooter.js"></script>
+<script src="js/app.js"></script>
+<script src="js/shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/*Sections*/
+#product-info,
+#candle-gallery,
+#charity-section {
+    margin-bottom: 10vh;
+}
+
+/*CAROUSEL*/
+.carousel-inner {
+    background: #000;
+}
+
+.bg-image {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: fit-content;
+    top: 50%;
+}
+
+/*CAROUSEL IMGS*/
+.one {
+    background-image: url('../imgs/homeImgOne.jpg');
+ }
+
+.two {
+    background-image: url('../imgs/homeImgTwo.jpg');
+ }
+
+ .three {
+    background-image: url('../imgs/homeImgThree.jpg');
+ }
+
+ .four {
+    background-image: url('../imgs/homeImgFour.jpg');
+ }
+
+.carousel-caption {
+    opacity: 0;
+    transition: all ease-in-out .5s;
+    bottom: 5vh;
+}
+
+/*GALLERY*/
+.gallery-left,
+.gallery-right {
+    height: 60vh;
+}
+
+.gallery-one {
+    height: 30vh;
+    background: url('../imgs/galleryImgOne.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-two-child{
+    width: 25vw;
+    height: 30vh;
+}
+
+.gallery-two-img {
+    background-image: url('../imgs/galleryImgTwo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-three-img {
+    background-image: url('../imgs/galleryImgThree.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-four-img {
+    background-image: url('../imgs/galleryImgFour.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*PRODUCT OVERVIEW*/
+#product-info  {
+    display: flex;
+    justify-content: center;
+}
+
+.product-info-image {
+    background: url('../imgs/homeImgThree.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+
+
+/*CHARITY SECTION*/
+.novo-owner {
+    height: 45vh;
+}
+
+@media screen and (max-width: 991px) {
+    .gallery-right {
+        height: 30vh;
+    }
+
+    .gallery-two-child {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .carousel-caption {
+        left: 100px !important;
+        bottom: 100px !important;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .img-col{
+        height: 35vh !important;
+    }
+}
