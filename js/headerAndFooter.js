@@ -134,9 +134,6 @@ footerContainer.innerHTML = `
             <div class="col-md-2 text-secondary lato-font  text-center">
                 <a class="text-secondary"  href="stockist.html">BECOME A STOCKIST</a>
             </div>
-            <div class="col-md-2 text-secondary lato-font  text-center">
-                <a class="text-secondary"  href="#">DELIVERY AND RETURNS</a>
-            </div>
         </div>
     </div>
 </footer>
